@@ -1,0 +1,56 @@
+.inputArea {
+  padding: 10px 15px;
+  display: flex;
+  gap: 10px;
+  border-top: 1px solid #4b4c53;
+}
+
+
+.dark{
+  background-color: #232323;
+  color: #eee;
+}
+
+.light{
+  background-color: #fff;
+  color: rgb(48, 47, 47);
+}
+
+
+
+.inputField {
+  flex-grow: 1;
+  padding: 10px 15px;
+  border-radius: 30px;
+  border: none;
+  font-size: 1rem;
+  outline: none;
+  background-color: #2a2c36;
+  color: #eee;
+}
+
+.inputField::placeholder {
+  color: #777;
+}
+
+.sendBtn {
+  background-color: #4a90e2;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s ease;
+}
+
+.sendBtn:hover {
+  background-color: #357abd;
+}
+
+.sendBtn i {
+  font-size: 1.1rem;
+}

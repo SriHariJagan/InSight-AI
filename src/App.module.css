@@ -1,0 +1,7 @@
+.container {
+  display: flex;
+  min-height: 100vh;
+  background-color: #202123;
+  color: #eee;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
