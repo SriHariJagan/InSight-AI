@@ -8,7 +8,7 @@ export default function Messages() {
 
   // Sample conversation state: array of message objects
   const [messages, setMessages] = useState([
-    { id: 1, from: "bot", text: "Hi! I’m NeoChat AI. Feel free to ask me anything." },
+    { id: 1, from: "bot", text: "Hi! I’m InSight AI. Feel free to ask me anything." },
     { id: 2, from: "user", text: "Hello! How can I assist you today?" },
     { id: 3, from: "bot", text: "You can ask me about AI, coding, or anything else." },
   ]);
