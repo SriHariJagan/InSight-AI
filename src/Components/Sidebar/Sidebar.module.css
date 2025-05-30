@@ -1,6 +1,6 @@
 .sidebar {
   width: 280px;
-  height: 100vh; /* Fill entire screen vertically */
+  min-height: 100vh; /* Fill entire screen vertically */
   border-right: 1px solid #333;
   display: flex;
   flex-direction: column;
@@ -192,4 +192,11 @@
   animation-name: slideOut;
   animation-duration: 400ms;
   animation-fill-mode: forwards;
+}
+
+
+@media (max-width: 600px){
+  .sidebar {
+    position: absolute;
+  }
 }
